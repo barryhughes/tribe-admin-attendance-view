@@ -1,0 +1,158 @@
+$wp_blue: #0073aa;
+
+.wrap.tribe-tickets-admin-attendance-view {
+	& > h1 {
+		margin-bottom: 0.5rem;
+	}
+
+	thead th {
+		color: #888;
+		font-size: 92%;
+		text-transform: uppercase;
+	}
+
+	td,
+	th {
+		padding-bottom: 1.4rem;
+		padding-right: 1.8rem;
+	}
+
+	.datetime {
+		.dateblock {
+			box-shadow: 0 0 0.3rem #aaa;
+			display: block;
+			width: 2.66rem;
+
+			&>div {
+				text-align: center;
+			}
+
+			.month {
+				background: black;
+				color: white;
+				padding: 0.1rem 0.5rem;
+
+			}
+
+			&.mon-1 .month {
+				background: #102030;
+			}
+
+			&.mon-2 .month {
+				background: #602010;
+			}
+
+			&.mon-3 .month {
+				background: #107070;
+			}
+
+			&.mon-4 .month {
+				background: #306010;
+			}
+
+			&.mon-5 .month {
+				background: #606010;
+			}
+
+			&.mon-6 .month{
+				background: #305010;
+			}
+
+			&.mon-7 .month {
+				background: #104020;
+			}
+
+			&.mon-8 .month {
+				background: #703020;
+			}
+
+			&.mon-9 .month {
+				background: #303040;
+			}
+
+			&.mon-10 .month {
+				background: #405010;
+			}
+
+			&.mon-11 .month {
+				background: #501040;
+			}
+
+			&.mon-12 .month {
+				background: #102030;
+			}
+
+			&.nodate .month {
+				background: #888;
+			}
+
+			.day {
+				background: white;
+				font-size: 140%;
+				padding: 0.25rem 0.5rem;
+			}
+		}
+	}
+
+	.title {
+		h3 {
+			margin: 0.1rem 0;
+		}
+
+		.action_links {
+			opacity: 0;
+			padding-top: 0.1rem;
+			transition: opacity 0.1s;
+
+			a {
+				text-decoration: none;
+			}
+		}
+
+		&:hover .action_links {
+			opacity: 1;
+			transition: opacity 0.1s;
+		}
+	}
+
+	.total {
+		font-size: 140%;
+		text-align: right;
+
+		> div {
+			padding-right: 0.65rem;
+		}
+
+		&.remaining {
+			color: #102070;
+		}
+
+		&.sold {
+			color: #106020;
+		}
+
+		&.pending {
+			color: #604010;
+		}
+
+		&.cancelled {
+			color: #701010;
+		}
+	}
+
+	.non-ticketed {
+		.title h3 {
+			opacity: 0.6;
+			text-decoration: line-through;
+		}
+
+		.total {
+			color: #aaa;
+		}
+	}
+
+	.controls {
+		padding: 1rem;
+		text-align: center;
+	}
+}

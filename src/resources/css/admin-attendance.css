@@ -1,0 +1,84 @@
+.wrap.tribe-tickets-admin-attendance-view > h1 {
+  margin-bottom: 0.5rem; }
+.wrap.tribe-tickets-admin-attendance-view thead th {
+  color: #888;
+  font-size: 92%;
+  text-transform: uppercase; }
+.wrap.tribe-tickets-admin-attendance-view td,
+.wrap.tribe-tickets-admin-attendance-view th {
+  padding-bottom: 1.4rem;
+  padding-right: 1.8rem; }
+.wrap.tribe-tickets-admin-attendance-view .datetime .dateblock {
+  box-shadow: 0 0 0.3rem #aaa;
+  display: block;
+  width: 2.66rem; }
+  .wrap.tribe-tickets-admin-attendance-view .datetime .dateblock > div {
+    text-align: center; }
+  .wrap.tribe-tickets-admin-attendance-view .datetime .dateblock .month {
+    background: black;
+    color: white;
+    padding: 0.1rem 0.5rem; }
+  .wrap.tribe-tickets-admin-attendance-view .datetime .dateblock.mon-1 .month {
+    background: #102030; }
+  .wrap.tribe-tickets-admin-attendance-view .datetime .dateblock.mon-2 .month {
+    background: #602010; }
+  .wrap.tribe-tickets-admin-attendance-view .datetime .dateblock.mon-3 .month {
+    background: #107070; }
+  .wrap.tribe-tickets-admin-attendance-view .datetime .dateblock.mon-4 .month {
+    background: #306010; }
+  .wrap.tribe-tickets-admin-attendance-view .datetime .dateblock.mon-5 .month {
+    background: #606010; }
+  .wrap.tribe-tickets-admin-attendance-view .datetime .dateblock.mon-6 .month {
+    background: #305010; }
+  .wrap.tribe-tickets-admin-attendance-view .datetime .dateblock.mon-7 .month {
+    background: #104020; }
+  .wrap.tribe-tickets-admin-attendance-view .datetime .dateblock.mon-8 .month {
+    background: #703020; }
+  .wrap.tribe-tickets-admin-attendance-view .datetime .dateblock.mon-9 .month {
+    background: #303040; }
+  .wrap.tribe-tickets-admin-attendance-view .datetime .dateblock.mon-10 .month {
+    background: #405010; }
+  .wrap.tribe-tickets-admin-attendance-view .datetime .dateblock.mon-11 .month {
+    background: #501040; }
+  .wrap.tribe-tickets-admin-attendance-view .datetime .dateblock.mon-12 .month {
+    background: #102030; }
+  .wrap.tribe-tickets-admin-attendance-view .datetime .dateblock.nodate .month {
+    background: #888; }
+  .wrap.tribe-tickets-admin-attendance-view .datetime .dateblock .day {
+    background: white;
+    font-size: 140%;
+    padding: 0.25rem 0.5rem; }
+.wrap.tribe-tickets-admin-attendance-view .title h3 {
+  margin: 0.1rem 0; }
+.wrap.tribe-tickets-admin-attendance-view .title .action_links {
+  opacity: 0;
+  padding-top: 0.1rem;
+  transition: opacity 0.1s; }
+  .wrap.tribe-tickets-admin-attendance-view .title .action_links a {
+    text-decoration: none; }
+.wrap.tribe-tickets-admin-attendance-view .title:hover .action_links {
+  opacity: 1;
+  transition: opacity 0.1s; }
+.wrap.tribe-tickets-admin-attendance-view .total {
+  font-size: 140%;
+  text-align: right; }
+  .wrap.tribe-tickets-admin-attendance-view .total > div {
+    padding-right: 0.65rem; }
+  .wrap.tribe-tickets-admin-attendance-view .total.remaining {
+    color: #102070; }
+  .wrap.tribe-tickets-admin-attendance-view .total.sold {
+    color: #106020; }
+  .wrap.tribe-tickets-admin-attendance-view .total.pending {
+    color: #604010; }
+  .wrap.tribe-tickets-admin-attendance-view .total.cancelled {
+    color: #701010; }
+.wrap.tribe-tickets-admin-attendance-view .non-ticketed .title h3 {
+  opacity: 0.6;
+  text-decoration: line-through; }
+.wrap.tribe-tickets-admin-attendance-view .non-ticketed .total {
+  color: #aaa; }
+.wrap.tribe-tickets-admin-attendance-view .controls {
+  padding: 1rem;
+  text-align: center; }
+
+/*# sourceMappingURL=admin-attendance.css.map */
